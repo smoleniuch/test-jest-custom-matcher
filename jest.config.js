@@ -6,7 +6,7 @@ module.exports = {
     },
     globals:{
         "ts-jest":{
-            diagnostics:false
+            diagnostics:true
         }
     },
     setupFilesAfterEnv:['<rootDir>/setupTest.ts']
