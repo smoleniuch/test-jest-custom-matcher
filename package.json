@@ -1,0 +1,22 @@
+{
+  "name": "test-jest-custom-matcher",
+  "version": "1.0.0",
+  "description": "testing possible bug with custom expect matcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Jan Ciołek",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.5.3"
+  }
+}
