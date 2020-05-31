@@ -1,18 +1,6 @@
 import '@testing-library/jest-dom'
 import '@testing-library/jest-dom/extend-expect'
 
-// import moment from 'moment'
-
-declare global {
-    namespace jest {
-      interface Matchers<R> {
-        toBeWithinRange(a: number, b: number): R;
-      }
-    }
-  }
-
-
-
 expect.extend({
     toBeWithinRange(received, floor, ceiling) {
       const pass = received >= floor && received <= ceiling;
